@@ -20,6 +20,7 @@ font: inherit;
 vertical-align: baseline;  
 }
 /*GENERAL STYLES*/
+
 html{
     font-size:62.5%;
 }
@@ -133,4 +134,19 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+/******************** MEDIA QUERIES**************************/
+@media (max-width: 500px){
+    .artists-container{
+        display:flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    a {	
+        text-decoration: none;	
+        font-size:5rem;	
+    }	
+
 }
